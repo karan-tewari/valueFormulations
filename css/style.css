@@ -4333,3 +4333,13 @@ ol {
    justify-content: center;
    align-items: center;
 }
+.gs-item img {
+   height: 220px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px),
+   only screen and (min-width: 576px) and (max-width: 767px),
+   (max-width: 576px) {
+   .gs-item img {
+      height: 150px;
+   }
+}
