@@ -4336,6 +4336,17 @@ ol {
 .gs-item img {
    height: 220px;
 }
+.about-custom-item {
+   float: left;
+   width: 50%;
+}
+.about-us-button-container {
+   float: left;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px),
    only screen and (min-width: 576px) and (max-width: 767px),
    (max-width: 576px) {
