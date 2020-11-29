@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	<title>Value Formulations</title>
+	<title>About us | Value formulations</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Value formulations">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,12 +10,16 @@
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
 	<link rel="stylesheet" href="css/nice-select.css"/>
-	<link rel="stylesheet" href="css/magnific-popup.css"/>
 	<link rel="stylesheet" href="css/slicknav.min.css"/>
-	<link rel="stylesheet" href="css/animate.css"/>
 
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
 </head>
 <body>
@@ -30,33 +34,49 @@
 			<div class="row m-0">
 				<div class="col-md-6 d-none d-md-block p-0">
 					<div class="header-info">
-						<img src="img/logo-updated.png" alt="">
+						<i class="material-icons">map</i>
+						<p>184 Main Collins Street</p>
+					</div>
+					<div class="header-info">
+						<i class="material-icons">phone</i>
+						<p>(965) 436 3274</p>
 					</div>
 				</div>
 				<div class="col-md-6 text-left text-md-right p-0">
 					<div class="header-info d-none d-md-inline-flex">
-						<i class="material-icons">phone</i>
-						<p>0522 - 4009473</p>
+						<i class="material-icons">alarm_on</i>
+						<p>Mon - Fri:  6:30am - 07:45pm</p>
 					</div>
-					<div class="header-info d-none d-md-inline-flex">
-						<i class="material-icons">map</i>
-						<p>Lucknow</p>
+					<div class="header-info">
+						<i class="material-icons">language</i>
+						<select id="language" class="language-select">
+							<option data-display="Language">EN</option>
+							<option data-display="Language" value="1">ES</option>
+							<option data-display="Language" value="2">JA</option>
+							<option data-display="Language" value="2">AR</option>
+						</select>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="header-bottom">
+			<a href="index.html" class="site-logo">
+				<img src="img/logo.png" alt="">
+			</a>
 			<div class="hb-right">
+				<div class="hb-switch" id="search-switch">
+					<img src="img/icons/search.png" alt="">
+				</div>
 				<div class="hb-switch" id="infor-switch">
 					<img src="img/icons/bars.png" alt="">
 				</div>
 			</div>
 			<div class="container">
 				<ul class="main-menu">
-					<li><a href="index.html" class="active">Home</a></li>
-					 <li><a href="about.html">About</a></li>
-					<li><a href="classes.html">Products</a></li>
-					<!--	<ul class="sub-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html" class="active">About</a></li>
+					<li><a href="classes.html">Classes</a>
+						<ul class="sub-menu">
 							<li><a href="classes.html">Our Claasses</a></li>
 							<li><a href="classes-details.html">Claasses Details</a></li>
 						</ul>
@@ -78,8 +98,8 @@
 							<li><a href="blog.html">Our Blog</a></li>
 							<li><a href="single-blog.html">Blog Details</a></li>
 						</ul>
-					</li>-->
-					<li><a href="contact.html">Contact</a></li> 
+					</li>
+					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -94,9 +114,9 @@
 			</div>
 			<div class="infor-middle">
 				<a href="#" class="infor-logo">
-					<img src="img/logo-updated.png" alt="">
+					<img src="img/logo-2.png" alt="">
 				</a>
-				<p>We have wide range of products</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
 				<div class="insta-imgs">
 					<div class="insta-item">
 						<div class="insta-img">
@@ -153,222 +173,117 @@
 						</div>
 					</div>
 				</div>
+				<form class="infor-form">
+					<input type="text" placeholder="Your Email">
+					<button><img src="img/icons/send.png" alt=""></button>
+				</form>
 				<div class="insta-social">
 					<a href="#"><i class="fa fa-linkedin"></i></a>
 					<a href="#"><i class="fa fa-twitter"></i></a>
 					<a href="#"><i class="fa fa-instagram"></i></a>
-					<a href="https://www.facebook.com/value.formulations.37" target="_blank"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-facebook"></i></a>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- Infor Model end -->
 	                                                                              
-	<!-- Hero Section -->
-	<section class="hero-section">
-		<div class="hero-social-warp">
-			<div class="hero-social">
-				<a href="https://www.facebook.com/value.formulations.37" target="_blank"><i class="fa fa-facebook"></i></a>
-				<a href="#"><i class="fa fa-instagram"></i></a>
-				<a href="#"><i class="fa fa-twitter"></i></a>
-				<a href="#"><i class="fa fa-linkedin"></i></a>
-			</div>
-		</div>
-		<div class="arrow-buttom">
-			<img src="img/icons/arrows-buttom.png" alt="">
-		</div>
-		<div class="hero-slider owl-carousel">
-			<div class="hs-item">
-				<div class="hs-style-3 text-center">
-					<div class="container">
-						<div class="hs-text">
-							<h2>Value Formulations</h2>
-							<p>We are an ISO 9001:2008 certified company with an experience of more than 4 years in marketing Pharmaceutical & Formulation Products and ensure that all the products offered by us meets highest standards.</p>
-						</div>
-					</div>
-					<div class="hs-img">
-						<img src="https://web.archive.org/web/20161102135455im_/http://valueformulations.com/images/banner7.png" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="hs-item">
-				<div class="hs-style-3 text-center">
-					<div class="container">
-						<div class="hs-text">
-							<h2>Value Formulations</h2>
-							<p>We offer pharmaceutical products in the form of Injections, External Applications, Tablets, Capsules & Liquid Orals,Beta Lactum Dry Powder Injections,Non-beta lactum dry powder injections and our products are manufactured by who GMP recognize manufactures like DM pharma ,Bajaj pharma,lenus helth care progressive pharma and meridian Medicare.</p>
-						</div>
-					</div>
-					<div class="hs-img">
-						<img src="https://web.archive.org/web/20161102133617im_/http://valueformulations.com/images/banner8.png" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="hs-item">
-				<div class="hs-style-3 text-center">
-					<div class="container">
-						<div class="hs-text">
-							<h2>Value Formulations</h2>
-							<p>We as company supplying our goods in many recognize hospital and nursing homes of all over India and have a team of experienced professionals with many years of expertise in marketing of pharmaceutical & formulation products.</p>
-						</div>
-					</div>
-					<div class="hs-img">
-						<img src="https://web.archive.org/web/20161102094534im_/http://valueformulations.com/images/banner4.png" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="hs-item">
-				<div class="hs-style-3 text-center">
-					<div class="container">
-						<div class="hs-text">
-							<h2>Value Formulations</h2>
-							<p>Our all pharmaceutical & formulation products manufactured by GMP Certified manufacturers and we are present in many states of India like Uttar Pradesh, Uttaranchal, Delhi, Maharashtra, Bihar & Jharkhand & also planning to start operation in MP, Chhattisgarh, Punjab ,Haryana, Jammu   Kashmir, Orissa, West Bengal by the end of 2017.</p>
-						</div>
-					</div>
-					<div class="hs-img">
-						<img src="https://web.archive.org/web/20161102125405im_/http://valueformulations.com/images/banner6.png" alt="">
-					</div>
+	<!-- Page top Section -->
+	<section class="page-top-section set-bg" data-setbg="img/page-top-bg.jpg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 m-auto text-white">
+					<h2>About</h2>
+					<p>We were established in 2011, and have presence UP , Uttrakhand, Bihar and Jharkhand. Our products are manufactured by who GMP recognize manufactures like DM pharma ,Bajaj pharma,lenus helth care progressive pharma and meridian Medicare.</p>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- Hero Section end -->
+	<!-- Page top Section end -->
 
-	<!-- About Section -->
-	<section class="about-section spad">
+	<!-- Service Section -->
+	<section class="service-section spad">
 		<div class="container">
-			<div class="section-title text-center">
-				<!-- <img src="img/icons/logo-icon.png" alt=""> -->
-				<h2>Welcome to Value Formulations</h2>
-				<p>We have more than six years of experience in marketing pharmaceutical and formulation products</p>
-			</div>
 			<div class="row">
-				<div class="col-lg-6">
-					<div class="about-img">
-						<img src="https://images.pexels.com/photos/3683087/pexels-photo-3683087.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="about-item">
+				<div class="col-lg-3 col-sm-6">
+					<div class="about-item icon-box">
 						<div class="ai-icon">
 							<img src="img/icons/about-1.png" alt="">
 						</div>
 						<div class="ai-text">
-							<h4>Manufacturing</h4>
-							<p>Our products are manufactured by GMP Certified manufacturers.</p>
+							<h4>Full Rejuvenation</h4>
+							<p>Excepteur sint occaecat cupidatat non proident sunt</p>
 						</div>
 					</div>
-					<div class="about-item">
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="about-item icon-box">
 						<div class="ai-icon">
 							<img src="img/icons/about-2.png" alt="">
 						</div>
 						<div class="ai-text">
-							<h4>Certified</h4>
-							<p>We are an ISO 9001:2008 certified company.</p>
+							<h4>Extension of Spring</h4>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
 						</div>
 					</div>
-					<div class="about-item">
-						<div class="ai-icon">
-							<img src="img/icons/about-2.png" alt="">
-						</div>
-						<div class="ai-text">
-							<h4>Safety first</h4>
-							<p>We ensure that all the products offered by us meets highest standards.</p>
-						</div>
-					</div>
-					<div class="about-item">
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="about-item icon-box">
 						<div class="ai-icon">
 							<img src="img/icons/about-3.png" alt="">
 						</div>
 						<div class="ai-text">
-							<h4>Professional</h4>
-							<p>We have a team of experienced professionals.</p>
+							<h4>Against Aging</h4>
+							<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur</p>
 						</div>
 					</div>
-					<a href="" class="site-btn sb-gradient mt-5">About Us</a>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="about-item icon-box">
+						<div class="ai-icon">
+							<img src="img/icons/about-4.png" alt="">
+						</div>
+						<div class="ai-text">
+							<h4>Slim Body</h4>
+							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- About Section end  -->
+	<!-- Service Section end -->
 
-	<!-- Classes Section -->
-	<section class="classes-section spad">
+	<!-- What we do Section -->
+	<section class="wwd-section spad set-bg" data-setbg="img/wwd-bg.jpg">
 		<div class="container">
-			<div class="section-title text-center">
-				<img src="img/icons/logo-icon.png" alt="">
-				<h2>Popular Products</h2>
-				<p>We have over fifty products in market, ranging from tablets, injections , syrups and soft gels</p>
-			</div>
-			<div class="classes-slider owl-carousel">
-				<div class="classes-item">
-					<div class="ci-img">
-						<img src="https://images.pexels.com/photos/159211/headache-pain-pills-medication-159211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-					</div>
-					<div class="ci-text">
-						<h4><a href="classes-details.html">ValuCal Plus</a></h4>
-					</div>
-					<div class="ci-text">
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis</p>
-					</div>
-					<div class="ci-bottom centered-button">
-						<div class="ci-author">
+			<div class="row">
+				<div class="col-xl-6 col-lg-7 ml-auto">
+					<div class="wwd-text">
+						<h3>What we do</h3>
+						<p>To be invited to the nearest Cali center and get free physical advice to learn more about the program.</p>
+						<div class="single-progress-item">
+							<p>Breathing</p>
+							<div class="progress-bar-style" data-progress="84"  data-bgcolor="#f76d63"></div>
 						</div>
-						<a href="javsacript:void(0)" class="site-btn sb-gradient">Price</a>
-					</div>
-				</div>
-				<div class="classes-item">
-					<div class="ci-img">
-						<img src="https://images.pexels.com/photos/159211/headache-pain-pills-medication-159211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-					</div>
-					<div class="ci-text">
-						<h4><a href="classes-details.html">ValuCal Plus</a></h4>
-					</div>
-					<div class="ci-text">
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis</p>
-					</div>
-					<div class="ci-bottom centered-button">
-						<div class="ci-author">
+						<div class="single-progress-item">
+							<p>Metabolism</p>
+							<div class="progress-bar-style" data-progress="75"  data-bgcolor="#f76d63"></div>
 						</div>
-						<a href="javsacript:void(0)" class="site-btn sb-gradient">Price</a>
-					</div>
-				</div>
-				<div class="classes-item">
-					<div class="ci-img">
-						<img src="https://images.pexels.com/photos/159211/headache-pain-pills-medication-159211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-					</div>
-					<div class="ci-text">
-						<h4><a href="classes-details.html">ValuCal Plus</a></h4>
-					</div>
-					<div class="ci-text">
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis</p>
-					</div>
-					<div class="ci-bottom centered-button">
-						<div class="ci-author">
+						<div class="single-progress-item">
+							<p>Flexibility</p>
+							<div class="progress-bar-style" data-progress="90"  data-bgcolor="#f76d63"></div>
 						</div>
-						<a href="javsacript:void(0)" class="site-btn sb-gradient">Price</a>
-					</div>
-				</div>
-				<div class="classes-item">
-					<div class="ci-img">
-						<img src="https://images.pexels.com/photos/159211/headache-pain-pills-medication-159211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
-					</div>
-					<div class="ci-text">
-						<h4><a href="classes-details.html">ValuCal Plus</a></h4>
-					</div>
-					<div class="ci-text">
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis</p>
-					</div>
-					<div class="ci-bottom centered-button">
-						<div class="ci-author">
+						<div class="single-progress-item">
+							<p>Strongness</p>
+							<div class="progress-bar-style" data-progress="78"  data-bgcolor="#f76d63"></div>
 						</div>
-						<a href="javsacript:void(0)" class="site-btn sb-gradient">Price</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- Classes Section end -->
+	<!-- What we do Section end -->
 
 	<!-- Trainer Section -->
 	<section class="trainer-section overflow-hidden spad">
@@ -421,7 +336,7 @@
 							<img src="img/trainer/3.png" alt="">
 						</div>
 						<div class="ti-text">
-							<h4>Rebecca James</h4>
+							<h4>Lori Kennedy</h4>
 							<h6>Yoga Trainer</h6>
 							<p>Yoga & Therapy Certificate of Uttarakhand University Sanskrit</p>
 							<div class="ti-social">
@@ -481,66 +396,70 @@
 	</section>
 	<!-- Review Section end -->
 
-	<!-- Event Section -->
-	<section class="event-section spad">
+	<!-- Blog Section -->
+	<section class="about-blog-section spad">
 		<div class="container">
 			<div class="section-title text-center">
 				<img src="img/icons/logo-icon.png" alt="">
-				<h2>Upcoming Events</h2>
+				<h2>Course benefits</h2>
 				<p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
 			</div>
 			<div class="row">
-				<div class="col-xl-6">
-					<div class="event-video">
-						<img src="img/video.jpg" alt="">
-						<a href="https://www.youtube.com/watch?v=vgv-hzTl5FA" class="video-popup"><img src="img/icons/play.png" alt=""></a>
+				<div class="col-lg-4 col-md-6">
+					<div class="blog-item">
+						<img src="img/blog/1.jpg" alt="">
+						<div class="bi-text">
+							<h2><a href="single-blog.html">Yoga for Slim Physique</a></h2>
+							<p>Regular practice with breathing tech-niques in Yoga will help you get a toned body, this is the perfect choice</p>
+						</div>
+						<div class="bi-footer">
+							<div class="bi-cata">Health & Beauty</div>
+							<div class="bi-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-xl-6">
-					<div class="event-item">
-						<div class="ei-img">
-							<img src="img/event/1.jpg" alt="">
+				<div class="col-lg-4 col-md-6">
+					<div class="blog-item">
+						<img src="img/blog/2.jpg" alt="">
+						<div class="bi-text">
+							<h2><a href="single-blog.html">The Perfect Dose</a></h2>
+							<p>To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain</p>
 						</div>
-						<div class="ei-text">
-							<h4><a href="#">Lole White Yoga Tour</a></h4>
-							<ul>
-								<li><i class="material-icons">person</i>Kelly Alexander</li>
-								<li><i class="material-icons">event_available</i>15 January, 2019</li>
-								<li><i class="material-icons">map</i>184 Main Collins Street</li>
-							</ul>
-						</div>
-					</div>
-					<div class="event-item">
-						<div class="ei-img">
-							<img src="img/event/2.jpg" alt="">
-						</div>
-						<div class="ei-text">
-							<h4>Free Yoga Madrid</h4>
-							<ul>
-								<li><i class="material-icons">person</i>Kelly Alexander</li>
-								<li><i class="material-icons">event_available</i>15 January, 2019</li>
-								<li><i class="material-icons">map</i>184 Main Collins Street</li>
-							</ul>
+						<div class="bi-footer">
+							<div class="bi-cata">Health & Beauty</div>
+							<div class="bi-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+							</div>
 						</div>
 					</div>
-					<div class="event-item">
-						<div class="ei-img">
-							<img src="img/event/3.jpg" alt="">
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="blog-item">
+						<img src="img/blog/3.jpg" alt="">
+						<div class="bi-text">
+							<h2><a href="single-blog.html">Flexible Body</a></h2>
+							<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis prae-sentium voluptatum deleniti</p>
 						</div>
-						<div class="ei-text">
-							<h4>One Love Dallas</h4>
-							<ul>
-								<li><i class="material-icons">person</i>Kelly Alexander</li>
-								<li><i class="material-icons">event_available</i>15 January, 2019</li>
-								<li><i class="material-icons">map</i>184 Main Collins Street</li>
-							</ul>
+						<div class="bi-footer">
+							<div class="bi-cata">Health & Beauty</div>
+							<div class="bi-social">
+								<a href="#"><i class="fa fa-facebook"></i></a>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- Event Section end -->
+	<!-- Blog Section end -->
 
 	<!-- Gallery Section -->
 	<div class="gallery-section">
@@ -590,6 +509,7 @@
 		</div>
 	</div>
 	<!-- Gallery Section end -->
+
 
 	<!-- Footer Section -->
 	<footer class="footer-section">
@@ -666,7 +586,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</footer>
 	<!-- Footer Section end -->
-
+	
 	<div class="back-to-top"><img src="img/icons/up-arrow.png" alt=""></div>
 
 	<!-- Search model -->
@@ -680,7 +600,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 		</div>
 	</div>
 	<!-- Search model end -->
-
+	
 	<!--====== Javascripts & Jquery ======-->
 	<script src="js/vendor/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
